@@ -2,4 +2,4 @@
 
 the demo_bst method is implemented in the module linked_bst.py
 
-![image](https://user-images.githubusercontent.com/96056537/169699500-074b5154-f3ca-4be3-9ccf-10db19b91ac0.png)
+![image](https://user-images.githubusercontent.com/96056537/169699559-6543dcf6-91fb-4b0a-ad9c-3553688d6b69.png)
