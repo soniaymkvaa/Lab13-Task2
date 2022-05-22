@@ -392,7 +392,6 @@ class LinkedBST(AbstractCollection):
         """
         with open(path, "r") as file:
             words = [line.replace("\n","") for line in file]
-        # print(words)
 
         # random words in sorted list
         curr_time = time.time()
@@ -417,7 +416,6 @@ class LinkedBST(AbstractCollection):
         tree = LinkedBST()
         for word in words:
             tree.add(word)
-            # print(word)
 
         start_time = time.time()
         for _ in range(10000):
@@ -439,18 +437,3 @@ if __name__ == "__main__":
     random.seed(1337)
     b = LinkedBST()
     b.demo_bst('words.txt')
-    # for i in range(30):
-    #     b.add(random.randint(1,100))
-    # print(b)
-#     print(b.is_balanced())
-#     b.rebalance()
-#     print(b.is_balanced())
-#     print(b)
-#     print(b.successor(5))
-#     print(b.successor(55))
-#     print(b.predecessor(65))
-#     print(b.predecessor(47))
-#     print(b.predecessor(5))
-#     print(b.predecessor(100))
-#     print(b.successor(100))
-#     print(b.predecessor(9))
